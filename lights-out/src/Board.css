@@ -1,0 +1,48 @@
+.Board {
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+}
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.Board-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.neon-orange{
+  font-family: neon;
+  color: red;
+  font-size: 6vw;
+  line-height: 6vw;
+  text-shadow: 0 0 3vw red;
+}
+
+.neon-blue{
+  font-family: neon;
+  color: blue;
+  font-size: 6vw;
+  line-height: 6vw;
+  text-shadow: 0 0 3vw blue;
+}
+
+.youwon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lo-image{
+  height: 400px;
+}
